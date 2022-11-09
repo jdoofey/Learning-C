@@ -9,17 +9,34 @@
 //   return 0; // if return 0 -> nothing bad happened; if return 1, something went wrong
 // }
 
-int abs_val(int x) {
-  if (x<0) return -x;
-  return x;
+void abs_val(int x) {
+  x= -1000;
 }
 
-int main(void) {     //how to assign values of an array at a certain index
-  int arr[5];
-  arr[0] = -100;
-  printf("%d\n", arr[0]);
+int main(void) {  // this is how to change the value of an integer
+  int num = 1;
+  abs_val(num);
+  printf("%d\n", num);
   return 0;
 }
+
+// int abs_val(int x) {
+//   if (x<0) return -x;
+//   return x;
+// }
+
+
+// int main(void){             ///printing hello world when it is stored as a string
+//   char *str = "Hello, world";
+//   printf("%s\n", str);
+//   return 0;
+// }
+// int main(void) {     //how to assign values of an array at a certain index
+//   int arr[5];
+//   arr[0] = -100;
+//   printf("%d\n", arr[0]);
+//   return 0;
+// }
 
 // int main(void) {                  //prints the index of the number put in?
 //   int arr[] = {1,2,3,4,5};
