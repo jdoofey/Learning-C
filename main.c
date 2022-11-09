@@ -14,10 +14,18 @@ int abs_val(int x) {
   return x;
 }
 
-int main(void) {
-  
+int main(void) {     //how to assign values of an array at a certain index
+  int arr[5];
+  arr[0] = -100;
+  printf("%d\n", arr[0]);
   return 0;
 }
+
+// int main(void) {                  //prints the index of the number put in?
+//   int arr[] = {1,2,3,4,5};
+//   printf("%d\n", arr[1]);
+//   return 0;
+// }
 // int main(void) {                       // for loops!
 //   for (int i=1; i<=10; i++) {
 //     printf("%d <--- count\n", i);
