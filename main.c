@@ -15,11 +15,28 @@ int abs_val(int x) {
 }
 
 int main(void) {
-  printf("%d\n", abs_val(-2.50));        //2.50 is not an int so this is wrong, and needs to be fixed, even though it runs
+  
   return 0;
 }
+// int main(void) {                       // for loops!
+//   for (int i=1; i<=10; i++) {
+//     printf("%d <--- count\n", i);
+//   }
+//   return 0;
+// }
+// int main(void) {
+//   // printf("%d\n", abs_val(-2.50));        //2.50 is not an int so this is wrong, and needs to be fixed, even though it runs
+//   // printf("%c\n", 65);           // prints A
+
+//   return 0;
+// }
 
 
 // notes, end c files in .c
 // gcc -o main main.c - command to compile the code for execution? -o means output
 // after above step, can run ./main to run the file
+
+// unsigned is a flag that means that an integer/number cannot be negative-> unsigned int my_int = 2 is valid, but if -2, will not compile
+
+//long is 52 bit integer
+//double is 54 bit floating point
